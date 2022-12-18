@@ -1,22 +1,3 @@
-# vue-admin-template
-
-English | [简体中文](./README-zh.md)
-
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
-
-**Live demo:** http://panjiachen.github.io/vue-admin-template
-
-
-**The current version is `v4.0+` build on `vue-cli`. If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-admin-template/tree/tag/3.11.0), it does not rely on `vue-cli`**
-
-<p align="center">
-  <b>SPONSORED BY</b>
-</p>
-<p align="center">
-   <a href="https://finclip.com?from=vue_element" title="FinClip" target="_blank">
-      <img height="200px" src="https://gitee.com/panjiachen/gitee-cdn/raw/master/vue%E8%B5%9E%E5%8A%A9.png" title="FinClip">
-   </a>
-</p>
 
 ## Build Setup
 
@@ -36,64 +17,36 @@ npm run serve
 
 This will automatically open http://localhost:9528
 
-## Build
+本项目基于 **vue2** 的后台管理系统二次开发，为品优购前台项目所做的后台管理系统  
+接口均采用 尚硅谷 的真实接口，首页大部分的接口则采用 **mock** 所虚拟的接口  
+主要熟悉了 **Element UI** 以及 **Echarts** 的使用， 以及进一步熟悉 **vue2** 的常规使用  
 
-```bash
-# build for test environment
-npm run build:stage
+## 后台路由
+![image](https://user-images.githubusercontent.com/114934055/208306183-786b7e40-f8cf-4a5c-83af-df5ac06017d8.jpg)
 
-# build for production environment
-npm run build:prod
-```
+## 技术选型
+![image](https://user-images.githubusercontent.com/114934055/208306189-c6e8e3e7-7eac-4fab-a78f-fe5fc28c4565.jpg)
 
-## Advanced
+## 登录与退出界面
+![image](https://user-images.githubusercontent.com/114934055/208306190-481e7520-abb7-4e8f-94cc-b8ce198f1e75.jpg)
+![image](https://user-images.githubusercontent.com/114934055/208306191-0374b5e5-7adb-4146-8c50-ca8af8042f6c.jpg)
 
-```bash
-# preview the release environment effect
-npm run preview
+## 首页
+![image](https://user-images.githubusercontent.com/114934055/208306192-380f3701-3004-4ef6-85f5-8ce5a3bbb476.jpg)
+![image](https://user-images.githubusercontent.com/114934055/208306195-0aafbdc7-370e-45f3-93e4-f8c78e2173a0.jpg)
 
-# preview the release environment effect + static resource analysis
-npm run preview -- --report
-
-# code format check
-npm run lint
-
-# code format check and auto fix
-npm run lint -- --fix
-```
-
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
-
-## Demo
-
-![demo](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/demo.gif)
-
-## Extra
-
-If you want router permission && generate menu by user roles , you can use this branch [permission-control](https://github.com/PanJiaChen/vue-admin-template/tree/permission-control)
-
-For `typescript` version, you can use [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-
-## Related Project
-
-- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-- [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-
-- [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template)
-
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
-
-## Browsers support
-
-Modern browsers and Internet Explorer 10+.
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions
-
-## License
-
-[MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.
-
-Copyright (c) 2017-present PanJiaChen
+## 商品管理
+### 平台属性
+![image](https://user-images.githubusercontent.com/114934055/208306196-521dfa67-956f-49de-a964-4f515ec112f8.jpg)
+### Sku 管理
+![image](https://user-images.githubusercontent.com/114934055/208306199-a28f7167-d579-4629-97d2-563f29172c83.jpg)
+### Spu 管理
+![image](https://user-images.githubusercontent.com/114934055/208306202-f6328318-5a5d-4d0a-a4aa-bce4cf86e06c.jpg)
+#### Spu 管理 ——添加spu
+![image](https://user-images.githubusercontent.com/114934055/208306207-68bb738c-2744-4ec7-98f7-a843d320fb19.jpg)
+### 品牌管理
+![image](https://user-images.githubusercontent.com/114934055/208306208-99791972-6eaa-4012-af74-71f316a64f6f.jpg)
+#### 品牌管理——添加
+![image](https://user-images.githubusercontent.com/114934055/208306210-94c8a44e-21cb-44fa-a287-fc5f7480326a.jpg)
+#### 品牌管理——删除
+![image](https://user-images.githubusercontent.com/114934055/208306213-ddd791ec-0628-465a-84c3-75b4c87c23a6.jpg)
