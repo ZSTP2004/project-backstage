@@ -21,7 +21,7 @@ This will automatically open http://localhost:9528
 接口均采用 尚硅谷 的真实接口，首页大部分的接口则采用 **mock** 所虚拟的接口  
 主要熟悉了 **Element UI** 以及 **Echarts** 的使用， 以及进一步熟悉 **vue2** 的常规使用  
 
-## 路由
+## 前端路由
 ![image](https://user-images.githubusercontent.com/114934055/208306183-786b7e40-f8cf-4a5c-83af-df5ac06017d8.jpg)
 
 ## 技术选型
